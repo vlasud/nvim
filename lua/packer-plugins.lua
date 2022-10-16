@@ -8,6 +8,7 @@ return require('packer').startup(function()
     requires = {{'nvim-lua/plenary.nvim'}}
   }
   use 'vim-airline/vim-airline'
-  use 'APZelos/blamer.nvim'
   use 'Yggdroot/indentLine'
+  use 'yamatsum/nvim-cursorline'
+  use 'lewis6991/gitsigns.nvim'
 end)
