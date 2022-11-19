@@ -11,4 +11,5 @@ return require('packer').startup(function()
   use 'Yggdroot/indentLine'
   use 'yamatsum/nvim-cursorline'
   use 'lewis6991/gitsigns.nvim'
+  use 'neoclide/coc.nvim'
 end)
