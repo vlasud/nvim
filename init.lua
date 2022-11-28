@@ -4,7 +4,7 @@ require('packer-plugins')
 vim.o.number = true
 vim.o.numberwidth = 2
 vim.g.blamer_enabled = 1
-vim.cmd[[colorscheme dracula]]
+vim.cmd[[colorscheme gruvbox]]
 
 -- Editing
 vim.o.expandtab = true
