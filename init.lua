@@ -27,7 +27,7 @@ keymap("n", "<Left>", ":vertical resize +1<CR>", default_opts)
 keymap("n", "<Right>", ":vertical resize -1<CR>", default_opts)
 keymap("n", "<Up>", ":resize -1<CR>", default_opts)
 keymap("n", "<Down>", ":resize +1<CR>", default_opts)
-keymap("n", "<S-t>", ":NERDTree<CR>", default_opts)
+keymap("n", "<S-t>", ":NERDTreeFocus<CR>", default_opts)
 keymap("n", "<S-h>", "<C-W>h", default_opts)
 keymap("n", "<S-j>", "<C-W>j", default_opts)
 keymap("n", "<S-k>", "<C-W>k", default_opts)
@@ -134,3 +134,4 @@ require('gitsigns').setup {
     enable = false
   },
 }
+
