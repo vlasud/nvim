@@ -13,4 +13,7 @@ return require('packer').startup(function()
   use 'yamatsum/nvim-cursorline'
   use 'lewis6991/gitsigns.nvim'
   use 'neoclide/coc.nvim'
+  use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+    require("toggleterm").setup()
+  end}
 end)
