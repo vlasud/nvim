@@ -3,6 +3,7 @@
 ## You need to do after importing the config:
 - ### Installation nvim.packer
 > Unix, Linux
+sad
 
 ```git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim```
 > Windows

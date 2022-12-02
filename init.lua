@@ -37,6 +37,9 @@ keymap("n", "<S-l>", "<C-W>l", default_opts)
 keymap("n", "<Esc><Esc>", "<Esc>:w<CR>", default_opts)
 keymap("n", "<S-q>", "<Esc>:q!<CR>", default_opts)
 keymap("n", "<S-c>", ":ToggleTerm<CR>", default_opts)
+keymap("n", "<Tab><Tab>", ":tabnew<CR>", default_opts)
+keymap("n", "<Tab>n", ":tabn<CR>", default_opts)
+keymap("n", "<Tab>p", ":tabp<CR>", default_opts)
 
 
 function _G.set_terminal_keymaps()
