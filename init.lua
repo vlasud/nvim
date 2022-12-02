@@ -4,7 +4,7 @@ require('packer-plugins')
 vim.o.number = true
 vim.o.numberwidth = 2
 vim.g.blamer_enabled = 1
-vim.cmd[[colorscheme gruvbox]]
+vim.cmd[[colorscheme dracula]]
 
 -- Editing
 vim.o.expandtab = true
@@ -12,6 +12,7 @@ vim.o.smarttab = true
 vim.o.autoident = true
 vim.o.tabstop = 2
 vim.o.shiftwidth = 2
+vim.o.smartident = true
 
 -- Binding
 local keymap = vim.api.nvim_set_keymap
@@ -28,6 +29,7 @@ keymap("n", "<Right>", ":vertical resize -1<CR>", default_opts)
 keymap("n", "<Up>", ":resize -1<CR>", default_opts)
 keymap("n", "<Down>", ":resize +1<CR>", default_opts)
 keymap("n", "<S-t>", ":NERDTreeFocus<CR>", default_opts)
+keymap("n", "<S-r>", ":NERDTreeRefreshRoot<CR>", default_opts)
 keymap("n", "<S-h>", "<C-W>h", default_opts)
 keymap("n", "<S-j>", "<C-W>j", default_opts)
 keymap("n", "<S-k>", "<C-W>k", default_opts)
