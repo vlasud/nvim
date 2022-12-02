@@ -13,4 +13,4 @@ In nvim
 ```:PackerSync```
 
 - ### Coc.clangd
-:CocInstall coc-clangd
+```:CocInstall coc-clangd```
