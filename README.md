@@ -14,3 +14,6 @@ In nvim
 
 - ### Coc.clangd
 ```:CocInstall coc-clangd```
+- ### Rigrep for telescope
+> Unix, Linux
+```brew install ripgrep```
