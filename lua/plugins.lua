@@ -13,6 +13,7 @@ Plug 'akinsho/toggleterm.nvim'
 Plug 'romgrk/barbar.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug ('nvim-telescope/telescope.nvim', { tag = '0.1.5' })
+Plug 'https://github.com/lewis6991/gitsigns.nvim'
 
 vim.call('plug#end')
 
@@ -63,3 +64,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
 
 -- terminal
 require("toggleterm").setup()
+
+
+-- git signs
+require('gitsigns').setup()

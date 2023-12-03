@@ -20,7 +20,8 @@ opt.splitright = true
 opt.splitbelow = true
 
 -- theme
-vim.o.background = "dark"
+vim.g.gruvbox_contrast_dark = "hard"
+vim.g.gruvbox_contrast = "hard"
 vim.cmd([[colorscheme gruvbox]])
 
 -- enable TERDTree of start nvim
