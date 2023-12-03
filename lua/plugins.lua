@@ -4,7 +4,7 @@ local Plug = vim.fn['plug#']
 
 vim.call('plug#begin')
 
-Plug 'https://github.com/morhetz/gruvbox'
+Plug 'https://github.com/folke/tokyonight.nvim'
 Plug 'https://github.com/preservim/nerdtree'
 Plug 'https://github.com/jiangmiao/auto-pairs'
 Plug 'https://github.com/vim-airline/vim-airline'
@@ -69,3 +69,8 @@ require("toggleterm").setup()
 require('gitblame').setup {
     enabled = true,
 }
+
+-- theme tokyonight
+require("tokyonight").setup({
+    style = "night"
+})

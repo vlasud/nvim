@@ -20,7 +20,7 @@ opt.splitbelow = true
 -- theme
 vim.g.gruvbox_contrast_dark = "hard"
 vim.g.gruvbox_contrast = "hard"
-vim.cmd([[colorscheme gruvbox]])
+vim.cmd([[colorscheme tokyonight]])
 
 -- enable TERDTree of start nvim
 vim.cmd([[
