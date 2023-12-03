@@ -72,5 +72,5 @@ require('gitblame').setup {
 
 -- theme tokyonight
 require("tokyonight").setup({
-    style = "night"
+    style = "moon"
 })

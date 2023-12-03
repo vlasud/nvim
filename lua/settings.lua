@@ -7,6 +7,8 @@ opt.tabstop = 4
 opt.shiftwidth = 4
 opt.expandtab = true
 opt.autoindent = true
+opt.smarttab = true
+opt.smartindent = true
 
 opt.wrap = true
 opt.linebreak = true
@@ -30,3 +32,11 @@ vim.cmd([[
 
 -- git blame
 vim.g.gitblame_delay = 1000
+
+
+vim.cmd([[
+  set lcs+=space:.
+  set list  
+  set ts=4 expandtab
+  retab
+]])
