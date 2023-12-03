@@ -14,8 +14,6 @@ opt.linebreak = true
 opt.ignorecase = true
 opt.smartcase = true
 
-opt.cursorline = true
-
 opt.splitright = true
 opt.splitbelow = true
 
@@ -26,5 +24,9 @@ vim.cmd([[colorscheme gruvbox]])
 
 -- enable TERDTree of start nvim
 vim.cmd([[
-    autocmd VimEnter * NERDTree 
+    autocmd VimEnter * NERDTree
 ]])
+
+
+-- git blame
+vim.g.gitblame_delay = 1000
