@@ -28,6 +28,7 @@ vim.cmd([[colorscheme tokyonight]])
 vim.cmd([[
     autocmd VimEnter * NERDTree
 ]])
+vim.g.NERDTreeShowHidden=1
 
 
 -- git blame
