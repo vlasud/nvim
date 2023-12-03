@@ -11,6 +11,8 @@ Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://github.com/neovim/nvim-lspconfig'
 Plug 'akinsho/toggleterm.nvim'
 Plug 'romgrk/barbar.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug ('nvim-telescope/telescope.nvim', { tag = '0.1.5' })
 
 vim.call('plug#end')
 
