@@ -60,3 +60,11 @@ keymap.set('n', '<A-7>', '<Cmd>BufferGoto 7<CR>')
 keymap.set('n', '<A-8>', '<Cmd>BufferGoto 8<CR>')
 keymap.set('n', '<A-9>', '<Cmd>BufferGoto 9<CR>')
 keymap.set('n', '<A-c>', '<Cmd>BufferClose<CR>')
+
+
+-- telescope
+local builtin = require('telescope.builtin')
+keymap.set('n', '<leader>ff', builtin.find_files, {})
+keymap.set('n', '<leader>fg', builtin.live_grep, {})
+keymap.set('n', '<leader>fb', builtin.buffers, {})
+keymap.set('n', '<leader>fh', builtin.help_tags, {})
