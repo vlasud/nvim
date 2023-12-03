@@ -9,6 +9,8 @@ Plug 'https://github.com/preservim/nerdtree'
 Plug 'https://github.com/jiangmiao/auto-pairs'
 Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://github.com/neovim/nvim-lspconfig'
+Plug 'akinsho/toggleterm.nvim'
+Plug 'romgrk/barbar.nvim'
 
 vim.call('plug#end')
 
@@ -55,3 +57,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
     end, opts)
   end,
 })
+
+
+-- terminal
+require("toggleterm").setup()
