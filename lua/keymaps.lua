@@ -21,18 +21,18 @@ keymap.set("n", "<C-l>", "<C-w>l")
 
 
 -- shift arrow like gui
-keymap.set("n", "<S-k>", "v<Up>")
-keymap.set("n", "<S-j>", "v<Down>")
-keymap.set("n", "<S-h>", "v<Left>")
-keymap.set("n", "<S-l>", "v<Right>")
-keymap.set("v", "<S-k>", "<Up>")
-keymap.set("v", "<S-j>", "<Down>")
-keymap.set("v", "<S-h>", "<Left>")
-keymap.set("v", "<S-l>", "<Right>")
-keymap.set("i", "<S-k>", "<Esc>v<Up>")
-keymap.set("i", "<S-j>", "<Esc>v<Down>")
-keymap.set("i", "<S-h>", "<Esc>v<Left>")
-keymap.set("i", "<S-l>", "<Esc>v<Right>")
+keymap.set("n", "<S-Up>", "v<Up>")
+keymap.set("n", "<S-Down>", "v<Down>")
+keymap.set("n", "<S-Left>", "v<Left>")
+keymap.set("n", "<S-Right>", "v<Right>")
+keymap.set("v", "<S-Up>", "<Up>")
+keymap.set("v", "<S-Down>", "<Down>")
+keymap.set("v", "<S-Left>", "<Left>")
+keymap.set("v", "<S-Right>", "<Right>")
+keymap.set("i", "<S-Up>", "<Esc>v<Up>")
+keymap.set("i", "<S-Down>", "<Esc>v<Down>")
+keymap.set("i", "<S-Left>", "<Esc>v<Left>")
+keymap.set("i", "<S-Right>", "<Esc>v<Right>")
 
 
 -- copy paste like gui
